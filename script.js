@@ -34,19 +34,19 @@ document.addEventListener('DOMContentLoaded', function() {
             
             // Simple validation
             if (!name || !email || !subject || !message) {
-                alert('Please fill in all fields.');
+                alert('Lütfen tüm alanları doldurun.');
                 return;
             }
             
             // Email validation regex
             const emailRegex = /^[^\s@]+@[^\s@]+\.[^\s@]+$/;
             if (!emailRegex.test(email)) {
-                alert('Please enter a valid email address.');
+                alert('Lütfen geçerli bir e-posta adresi girin.');
                 return;
             }
             
             // Show success message (in a real app, this would send to a server)
-            alert(`Thank you, ${name}! Your message has been sent successfully.\n\nNote: This is a frontend demonstration. For actual contact, please use the email provided on the site.`);
+            alert(`Teşekkürler, ${name}! Mesajınız başarıyla gönderildi.\n\nNot: Bu bir frontend gösterimidir. Gerçek iletişim için lütfen sitede sağlanan e-posta adresini kullanın.`);
             
             // Reset form
             contactForm.reset();
@@ -160,8 +160,8 @@ document.addEventListener('DOMContentLoaded', function() {
     });
     
     // Console greeting
-    console.log('%c👋 Hello! Welcome to Talha BOYALIKLI\'s Personal Website', 'color: #3498db; font-size: 16px; font-weight: bold;');
-    console.log('%cThis site was created based on CV information provided.', 'color: #7f8c8d;');
+    console.log('%c👋 Merhaba! Talha BOYALIKLI Kişisel Web Sitesine Hoş Geldiniz', 'color: #3498db; font-size: 16px; font-weight: bold;');
+    console.log('%cBu site CV bilgileri temel alınarak oluşturulmuştur.', 'color: #7f8c8d;');
 });
 
 // Add some interactivity to the hero image
