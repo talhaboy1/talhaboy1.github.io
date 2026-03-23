@@ -1,0 +1,6 @@
+*.pyc
+__pycache__
+*.log
+*.pid
+add_modals.py
+index.html.backup
