@@ -19,66 +19,65 @@ A modern, responsive personal website for Talha BOYALIKLI, a maritime operations
   - Education
   - Contact form and details
 
-## File Structure
+## Technologies Used
+
+- HTML5
+- CSS3 (Flexbox, Grid, CSS Variables)
+- JavaScript (ES6+)
+- Font Awesome Icons
+- Google Fonts (Poppins, Roboto)
+
+## Project Structure
 
 ```
 talha-personal-site/
 ├── index.html          # Main HTML file
 ├── style.css           # Stylesheet
-├── script.js           # JavaScript interactions
+├── script.js           # JavaScript functionality
 ├── README.md           # This file
-└── pdf-extract.txt     # Extracted text from Talha's PDF
+└── talha_cv.pdf        # Original CV (for reference)
 ```
 
-## Technologies Used
+## Deployment
 
-- **HTML5**: Semantic markup
-- **CSS3**: Custom properties (CSS variables), Flexbox, Grid, animations
-- **JavaScript (ES6)**: DOM manipulation, event handling
-- **Font Awesome**: Icons
-- **Google Fonts**: Poppins & Inter fonts
+This website is deployed using GitHub Pages at: [https://talhaboy1.github.io](https://talhaboy1.github.io)
 
-## Content Source
+## Local Development
 
-All information is extracted from Talha BOYALIKLI's PDF resume, including:
-- Professional experience (Finance and Freight Coordinator, Operation Coordinator, Marine Surveyor, SNP Broker, Watchkeeping Officer)
-- Skills in maritime operations, contract management, and software (IMOS, SAP, Microsoft Office)
-- Education (Istanbul Technical University - Maritime Faculty)
-- Certifications and languages
-- Contact information
+To run this website locally:
 
-## How to View
-
-1. Open `index.html` in any modern web browser
-2. Or serve with a local web server:
+1. Clone the repository:
    ```bash
-   # Using Python
-   python3 -m http.server 8000
-   
-   # Using Node.js
-   npx serve .
+   git clone https://github.com/talhaboy1/talhaboy1.github.io.git
    ```
+
+2. Navigate to the project directory:
+   ```bash
+   cd talhaboy1.github.io
+   ```
+
+3. Open `index.html` in your web browser.
 
 ## Customization
 
-To update information:
-1. Edit `index.html` for content changes
-2. Modify `style.css` for styling changes
-3. Update `script.js` for interactive features
+To customize this website for your own use:
+
+1. Update personal information in `index.html`
+2. Modify color scheme in `style.css` (CSS variables at the top)
+3. Replace placeholder content with your own
+4. Update the favicon in the `<head>` section
 
 ## Browser Support
 
-- Chrome 60+
-- Firefox 55+
-- Safari 12+
-- Edge 79+
+- Chrome (latest)
+- Firefox (latest)
+- Safari (latest)
+- Edge (latest)
 
 ## License
 
-This website is created for Talha Boyalikli. All content belongs to Talha Boyalikli.
+This project is for personal portfolio use. All rights reserved to Talha BOYALIKLI.
 
----
+## Contact
 
-**Created with**: HTML, CSS, JavaScript  
-**For**: Talha BOYALIKLI - Maritime Operations & Finance Professional  
-**Date**: March 2024
+For any questions or suggestions, please contact Talha BOYALIKLI through the contact form on the website.
