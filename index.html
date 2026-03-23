@@ -5,51 +5,67 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Talha BOYALIKLI | Maritime Operations & Finance Professional</title>
     <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css">
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Roboto:wght@300;400;500&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;500;600;700&family=Inter:wght@300;400;500;600&display=swap" rel="stylesheet">
     <link rel="stylesheet" href="style.css">
-    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>🚢</text></svg>">
+    <link rel="icon" type="image/x-icon" href="data:image/svg+xml,<svg xmlns=%22http://www.w3.org/2000/svg%22 viewBox=%220 0 100 100%22><text y=%22.9em%22 font-size=%2290%22>⚓</text></svg>">
 </head>
 <body>
     <!-- Navigation -->
     <nav class="navbar">
         <div class="container">
-            <a href="#" class="logo">Talha<span>BOYALIKLI</span></a>
-            <div class="nav-toggle" id="navToggle">
-                <span class="bar"></span>
-                <span class="bar"></span>
-                <span class="bar"></span>
-            </div>
-            <ul class="nav-menu" id="navMenu">
-                <li><a href="#home" class="nav-link">Ana Sayfa</a></li>
-                <li><a href="#about" class="nav-link">Hakkımda</a></li>
-                <li><a href="#experience" class="nav-link">Deneyim</a></li>
-                <li><a href="#skills" class="nav-link">Beceriler</a></li>
-                <li><a href="#education" class="nav-link">Eğitim</a></li>
-                <li><a href="#contact" class="nav-link">İletişim</a></li>
+            <a href="#" class="logo">Talha BOYALIKLI</a>
+            <ul class="nav-links">
+                <li><a href="#home">Home</a></li>
+                <li><a href="#about">About</a></li>
+                <li><a href="#experience">Experience</a></li>
+                <li><a href="#skills">Skills</a></li>
+                <li><a href="#education">Education</a></li>
+                <li><a href="#contact">Contact</a></li>
             </ul>
+            <div class="navbar-avatar">
+                <img src="nav-photo.jpg" alt="Talha Boyalikli" id="nav-profile-img">
+                <div class="nav-photo-fallback">
+                    <i class="fas fa-user"></i>
+                </div>
+            </div>
+            <button class="menu-toggle">
+                <i class="fas fa-bars"></i>
+            </button>
         </div>
     </nav>
 
     <!-- Hero Section -->
-    <section class="hero" id="home">
+    <section id="home" class="hero">
         <div class="container">
             <div class="hero-content">
-                <div class="hero-text">
-                    <h1 class="hero-title">Talha <span>BOYALIKLI</span></h1>
-                    <h2 class="hero-subtitle">Denizcilik Operasyonları ve Finans Profesyoneli</h2>
-                    <p class="hero-description">Experienced professional with expertise in maritime operations, financial management, and team leadership. Based in Istanbul, Turkey.</p>
-                    <div class="hero-contact">
-                        <p><i class="fas fa-envelope"></i> talhaboy1@gmail.com</p>
-                        <p><i class="fas fa-phone"></i> +90 532 512 90 84</p>
-                        <p><i class="fas fa-map-marker-alt"></i> Istanbul, Turkey</p>
+                <h1 class="hero-title">Talha <span class="highlight">BOYALIKLI</span></h1>
+                <h2 class="hero-subtitle">Maritime Operations & Finance Professional</h2>
+                <p class="hero-description">
+                    Started my career before graduating from Maritime Faculty and after graduating I took several roles in different positions. I have both marine experience and land experience in many branches of Maritime operations. I specialized in Marine Finance and I also have advanced computer knowledge not only in office applications but also programming languages, process automation and hardware setups.
+                </p>
+                <div class="hero-buttons">
+                    <a href="#contact" class="btn btn-primary">Get in Touch</a>
+                    <a href="#experience" class="btn btn-secondary">View Experience</a>
+                </div>
+                <div class="hero-contact-info">
+                    <div class="contact-item">
+                        <i class="fas fa-envelope"></i>
+                        <span>Talha@boyalikli.com</span>
                     </div>
-                    <div class="hero-buttons">
-                        <a href="#contact" class="btn btn-primary">İletişime Geç</a>
-                        <a href="#experience" class="btn btn-secondary">Deneyimleri Gör</a>
+                    <div class="contact-item">
+                        <i class="fas fa-phone"></i>
+                        <span>+971 50 191 8962</span>
+                    </div>
+                    <div class="contact-item">
+                        <i class="fas fa-map-marker-alt"></i>
+                        <span>The Pulse Residence Park B3, PTH03 Dubai, UAE</span>
                     </div>
                 </div>
-                <div class="hero-image">
-                    <div class="image-placeholder">
+            </div>
+            <div class="hero-image">
+                <div class="profile-photo">
+                    <img src="photo.jpg" alt="Talha Boyalikli" id="profile-img">
+                    <div class="photo-fallback">
                         <i class="fas fa-user-tie"></i>
                     </div>
                 </div>
@@ -57,198 +73,279 @@
         </div>
     </section>
 
-    <!-- Career Objective -->
-    <section class="section about" id="about">
+    <!-- About / Career Objective Section -->
+    <section id="about" class="section about">
         <div class="container">
-            <h2 class="section-title">Kariyer Hedefi</h2>
+            <h2 class="section-title">Career Objective</h2>
             <div class="about-content">
-                <p>Denizcilik sektöründe 6 yıllık deneyime sahip, finansal analiz ve risk yönetimi konularında uzmanlaşmış bir profesyonelim. Gemi operasyonları, liman yönetimi ve finansal planlama alanlarında yetkin olup, ekip yönetimi ve süreç iyileştirme konularında başarılı projeler yürüttüm. İstanbul Teknik Üniversitesi Gemi İnşaatı ve Denizcilik Fakültesi mezunuyum.</p>
+                <div class="about-text">
+                    <p>To leverage my expertise in marine operations and finance to drive efficiency, enhance relationships, and contribute to the strategic growth of the maritime business.</p>
+                    <p>To utilize my knowledge of shipping operations and contract management to ensure smooth commercial processes and support business development.</p>
+                    <p>To contribute to a dynamic maritime organization by providing strong commercial and operational support, ensuring compliance, cost control, and client satisfaction in global shipping activities.</p>
+                    <p>Aiming to apply my experience in Marine Operation and commercial coordination to optimize support systems, foster collaboration, and strengthen organizational performance in maritime services.</p>
+                </div>
                 <div class="about-highlights">
                     <div class="highlight-card">
                         <i class="fas fa-ship"></i>
-                        <h3>Denizcilik Operasyonları</h3>
-                        <p>Liman işletme, gemi yönetimi ve lojistik koordinasyon alanlarında kapsamlı deneyim.</p>
+                        <h3>Maritime Expertise</h3>
+                        <p>900+ marine surveys across 24 ports, extensive experience in marine operations, surveys, and shipping finance</p>
                     </div>
                     <div class="highlight-card">
                         <i class="fas fa-chart-line"></i>
-                        <h3>Finansal Yönetim</h3>
-                        <p>Bütçeleme, finansal analiz ve maliyet kontrol stratejilerinde yetkinlik.</p>
+                        <h3>Financial Coordination</h3>
+                        <p>Skilled in freight coordination, SOA preparation, set-off agreements, and financial reconciliation</p>
                     </div>
                     <div class="highlight-card">
-                        <i class="fas fa-users"></i>
-                        <h3>Ekip Liderliği</h3>
-                        <p>Çapraz fonksiyonel ekipler liderliği ve işbirliği başarısı.</p>
+                        <i class="fas fa-cogs"></i>
+                        <h3>Process Optimization</h3>
+                        <p>Advanced knowledge in programming, process automation, and IMOS/SAP integration</p>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Professional Experience -->
-    <section class="section experience" id="experience">
+    <!-- Experience Section -->
+    <section id="experience" class="section experience">
         <div class="container">
-            <h2 class="section-title">Profesyonel Deneyim</h2>
+            <h2 class="section-title">Professional Experience</h2>
             <div class="timeline">
                 <div class="timeline-item">
-                    <div class="timeline-date">2021 - 2023</div>
+                    <div class="timeline-date">Jan 2024 – Present</div>
                     <div class="timeline-content">
-                        <h3>Finansal Analist</h3>
-                        <h4>Denizbank A.Ş., Istanbul</h4>
-                        <p>Denizcilik projeleri için finansal analizler yapma, bütçe tahminleri hazırlama ve risk değerlendirme modelleri geliştirme. Finansal raporlama doğruluğunu %20 artırdım. Bankanın denizcilik portföyü için kredi risk analizleri yaptım.</p>
+                        <h3>Finance and Freight Coordinator</h3>
+                        <h4>Mizzen FZE DMCC, UAE</h4>
+                        <p>Mizzen FZE DMCC is a part of Ashon International DMCC with approximately 100 bulk carriers in their charter. I actively work with the Operation Team and Finance Team to ensure payments and cash flow are intact and efficient.</p>
+                        <ul>
+                            <li>Checking the accuracy of each incoming and outgoing invoice and verifying or revising them as required</li>
+                            <li>Creating SOA, Set-off Agreements, Reconciliation reports</li>
+                            <li>Creating bulk payment requests</li>
+                            <li>Supporting Compliance Desk to renew KYC validation of our CP's</li>
+                            <li>Providing operational support to Legal Dept for arbitral tribunal</li>
+                            <li>Supporting IT dept to update counter party details and solve integration problems between IMOS and SAP</li>
+                            <li>Liaising with Finance, IT, Compliance, Performance and Middle Office teams to handle ad hoc requests related to freight operation</li>
+                        </ul>
                     </div>
                 </div>
                 <div class="timeline-item">
-                    <div class="timeline-date">2017 - 2021</div>
+                    <div class="timeline-date">Nov 2022 – Jan 2023</div>
                     <div class="timeline-content">
-                        <h3>Operasyon Müdürü</h3>
-                        <h4>Mavi Denizcilik A.Ş., Istanbul</h4>
-                        <p>Günlük liman operasyonlarını yönetme, gemi programlarını planlama, paydaşlarla koordinasyon ve verimlilik iyileştirmeleri uygulama. Süreç optimizasyonu ile operasyonel maliyetleri %15 düşürdüm. Ekip liderliği ve proje yönetimi.</p>
+                        <h3>Operation Coordinator</h3>
+                        <h4>Black Sand Commodities, UAE</h4>
+                        <p>Charterer of approximately 90 bulk carriers.</p>
+                        <ul>
+                            <li>Participated in several special tasks</li>
+                            <li>Supported Operation, Freight, Legal and Middle Office desks</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Oct 2015 – Nov 2023</div>
+                    <div class="timeline-content">
+                        <h3>Director – Marine Surveyor</h3>
+                        <h4>KBL Marine, UAE</h4>
+                        <p>Co-established the KBL Marine – Fujairah branch and served as a Marine Surveyor & Consultant.</p>
+                        <ul>
+                            <li>Carried out more than 900 marine surveys in 24 different ports</li>
+                            <li>Survey types: P&I surveys, marine casualty surveys, vessel activation surveys, pre-purchase surveys, HazMat surveys, bunker surveys, bunker quantity & quality disputes, on-hire/off-hire bunker & condition surveys</li>
+                            <li>Attended several vessels as Port Captain to speed up marine operations</li>
+                            <li>Managing Director responsibilities: attending marine exhibitions, visiting clients, following operations, financing</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Apr 2015 – Oct 2015</div>
+                    <div class="timeline-content">
+                        <h3>Marine Surveyor</h3>
+                        <h4>KBL Marine, Türkiye</h4>
+                        <ul>
+                            <li>Conducted bunker detective, bunker quantity, on-hire/off-hire and condition surveys in Turkish and European ports</li>
+                            <li>Moved to UAE to establish KBL Marine – UAE branch and expand network to Middle East</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">Oct 2012 – Apr 2015</div>
+                    <div class="timeline-content">
+                        <h3>SNP Broker</h3>
+                        <h4>Natural Shipping, Türkiye</h4>
+                        <ul>
+                            <li>Scanned suitable tonnages for Turkish owners</li>
+                            <li>Guided negotiations and prepared necessary agreements for sale and purchase procedures</li>
+                            <li>Assisted in establishing offshore companies and vessel registration</li>
+                            <li>Found suitable demolition vessels for scrapyards</li>
+                            <li>Prepared regular market reports and carried out pre-purchase surveys</li>
+                        </ul>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2010 – 2012</div>
+                    <div class="timeline-content">
+                        <h3>Oceangoing Watchkeeping Officer</h3>
+                        <h4>Bergen Shipping, Türkiye</h4>
+                        <p>Served as Third Officer and Second Officer in several handy size bulk carrier vessels.</p>
+                    </div>
+                </div>
+                <div class="timeline-item">
+                    <div class="timeline-date">2007 – 2010</div>
+                    <div class="timeline-content">
+                        <h3>Operation Assistant</h3>
+                        <h4>Bergen Shipping, Türkiye</h4>
+                        <p>Started maritime career while studying at Maritime Faculty.</p>
+                        <ul>
+                            <li>Followed up ISM and PMS documentation between vessels and office</li>
+                            <li>Assisted agent correspondence</li>
+                            <li>Gained experience in every step of managing vessels</li>
+                        </ul>
                     </div>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Skills & Expertise -->
-    <section class="section skills" id="skills">
+    <!-- Skills Section -->
+    <section id="skills" class="section skills">
         <div class="container">
-            <h2 class="section-title">Beceriler & Uzmanlık</h2>
+            <h2 class="section-title">Skills & Expertise</h2>
             <div class="skills-grid">
                 <div class="skill-category">
                     <h3><i class="fas fa-anchor"></i> Maritime Operations</h3>
                     <ul>
-                        <li>Gemi operasyonları yönetimi</li>
-                        <li>Liman operasyonları</li>
-                        <li>Navlun sözleşmeleri</li>
-                        <li>Denizcilik mevzuatı</li>
-                        <li>Lojistik planlama</li>
+                        <li>Maritime operations</li>
+                        <li>RELET, TC, Period, BB, COA contracts</li>
+                        <li>Recap and CP preparation</li>
+                        <li>PFHS/FFI preparation</li>
+                        <li>SOA, Set-off Agreements and reconciliation</li>
+                        <li>D/A and Port Services</li>
+                        <li>KYC Verification</li>
+                        <li>IMOS Analytics</li>
+                        <li>Claims & Disputes</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-chart-bar"></i> Financial Management</h3>
+                    <h3><i class="fas fa-laptop-code"></i> Software Knowledge</h3>
                     <ul>
-                        <li>Finansal analiz</li>
-                        <li>Risk yönetimi</li>
-                        <li>Bütçe planlama</li>
-                        <li>Maliyet kontrolü</li>
-                        <li>Finansal raporlama</li>
+                        <li>Microsoft Office (Outlook, Word, Excel, PowerPoint, Power BI, Power Automate)</li>
+                        <li>IMOS (Superuser)</li>
+                        <li>SAP (Service User)</li>
+                        <li>Pyrus</li>
+                        <li>RT</li>
+                        <li>Sedna</li>
+                        <li>Diabos</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-laptop-code"></i> Software & Tools</h3>
+                    <h3><i class="fas fa-language"></i> Languages</h3>
                     <ul>
-                        <li>MS Office Suite (İleri düzey)</li>
-                        <li>SAP ERP</li>
-                        <li>AutoCAD</li>
-                        <li>QuickBooks</li>
-                        <li>Python (Temel)</li>
+                        <li>Turkish (Native)</li>
+                        <li>English (Fluent)</li>
+                        <li>Arabic (Beginner)</li>
                     </ul>
                 </div>
                 <div class="skill-category">
-                    <h3><i class="fas fa-globe"></i> Languages & Certifications</h3>
+                    <h3><i class="fas fa-star"></i> Soft Skills</h3>
                     <ul>
-                        <li>Türkçe (Ana dil)</li>
-                        <li>İngilizce (İleri düzey)</li>
-                        <li>PMI Risk Management Sertifikası</li>
-                        <li>Denizcilik Güvenlik Sertifikası</li>
-                        <li>Finansal Risk Yönetimi (FRM)</li>
+                        <li>Flexible working conditions</li>
+                        <li>Consistency & Process control</li>
+                        <li>Continuous improvement</li>
+                        <li>Results oriented</li>
+                        <li>Social compatibility</li>
+                        <li>Risk management</li>
+                        <li>Loyalty</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-certificate"></i> Certifications</h3>
+                    <ul>
+                        <li>Oceangoing Watchkeeping Officer (on all ships in all waters)</li>
+                        <li>GMDSS General Radio Operator</li>
+                        <li>All STCW certificates</li>
+                        <li>SSO</li>
+                        <li>Shipping Finance – Cert of Professional Competence</li>
+                    </ul>
+                </div>
+                <div class="skill-category">
+                    <h3><i class="fas fa-heart"></i> Hobbies</h3>
+                    <ul>
+                        <li>IT</li>
+                        <li>Science Fiction</li>
+                        <li>Programming</li>
+                        <li>Photography</li>
+                        <li>Travelling</li>
+                        <li>Hiking & Camping</li>
+                        <li>Motorsports</li>
                     </ul>
                 </div>
             </div>
         </div>
     </section>
 
-    <!-- Education -->
-    <section class="section education" id="education">
+    <!-- Education Section -->
+    <section id="education" class="section education">
         <div class="container">
-            <h2 class="section-title">Eğitim</h2>
-            <div class="education-cards">
-                <div class="education-card">
-                    <div class="edu-icon">
-                        <i class="fas fa-graduation-cap"></i>
-                    </div>
-                    <h3>Lisans Derecesi</h3>
-                    <h4>Gemi İnşaatı ve Denizcilik Fakültesi</h4>
-                    <p>İstanbul Teknik Üniversitesi</p>
-                    <p class="edu-year">2012 - 2016</p>
-                    <p class="edu-desc">Denizcilik ekonomisi, liman yönetimi ve uluslararası ticaret üzerine odaklanarak mezun oldum. Projelerde aktif rol aldım.</p>
-                </div>
-                <div class="education-card">
-                    <div class="edu-icon">
-                        <i class="fas fa-certificate"></i>
-                    </div>
-                    <h3>Profesyonel Sertifikalar</h3>
-                    <h4>Çeşitli Uzmanlıklar</h4>
-                    <p>Çeşitli Kurumlar</p>
-                    <p class="edu-year">2016 - 2023</p>
-                    <p class="edu-desc">PMI Risk Management Sertifikası, Denizcilik Güvenlik Sertifikası, Finansal Risk Yönetimi (FRM), İleri Düzey Excel for Business, Proje Yönetimi Temelleri.</p>
-                </div>
-                <div class="education-card">
-                    <div class="edu-icon">
-                        <i class="fas fa-book"></i>
-                    </div>
-                    <h3>Sürekli Öğrenme</h3>
-                    <h4>Online Kurslar & Workshop'lar</h4>
-                    <p>Coursera, LinkedIn Learning, Udemy</p>
-                    <p class="edu-year">Devam Ediyor</p>
-                    <p class="edu-desc">Finans, operasyon yönetimi ve yeni denizcilik teknolojileri ile ilgili düzenli kurs katılımı. Veri analizi ve Python programlama üzerine çalışmalar.</p>
-                </div>
+            <h2 class="section-title">Education</h2>
+            <div class="education-item">
+                <h3>Bachelor of Science – Maritime Transportation and Management Engineering</h3>
+                <h4>Istanbul Technical University – Maritime Faculty</h4>
+                <p class="education-period">2004 – 2010</p>
+                <p class="education-honor">High Honour List</p>
+            </div>
+            <div class="education-item">
+                <h3>Celal Bayar Anatolian High School – Bursa</h3>
+                <p class="education-period">1997 – 2004</p>
             </div>
         </div>
     </section>
 
     <!-- Contact Section -->
-    <section class="section contact" id="contact">
+    <section id="contact" class="section contact">
         <div class="container">
-            <h2 class="section-title">İletişime Geçin</h2>
+            <h2 class="section-title">Get in Touch</h2>
             <div class="contact-content">
                 <div class="contact-info">
-                    <div class="contact-item">
+                    <div class="contact-item-large">
                         <i class="fas fa-envelope"></i>
                         <div>
                             <h3>Email</h3>
-                            <p>talha.boyalikli@example.com</p>
+                            <p>Talha@boyalikli.com</p>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item-large">
                         <i class="fas fa-phone"></i>
                         <div>
                             <h3>Phone</h3>
-                            <p>+90 555 123 4567</p>
+                            <p>+971 50 191 8962</p>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item-large">
                         <i class="fas fa-map-marker-alt"></i>
                         <div>
-                            <h3>Location</h3>
-                            <p>Istanbul, Turkey</p>
+                            <h3>Address</h3>
+                            <p>The Pulse Residence Park B3, PTH03 Dubai, UAE</p>
                         </div>
                     </div>
-                    <div class="contact-item">
+                    <div class="contact-item-large">
                         <i class="fab fa-linkedin"></i>
                         <div>
                             <h3>LinkedIn</h3>
-                            <p>linkedin.com/in/talhaboy1</p>
+                            <p><a href="https://www.linkedin.com/in/talhaboy/" target="_blank">linkedin.com/in/talhaboy</a></p>
                         </div>
                     </div>
                 </div>
                 <div class="contact-form">
-                    <form id="contactForm">
+                    <h3>Send a Message</h3>
+                    <form id="messageForm">
                         <div class="form-group">
-                            <input type="text" id="name" placeholder="Adınız" required>
+                            <input type="text" placeholder="Your Name" required>
                         </div>
                         <div class="form-group">
-                            <input type="email" id="email" placeholder="E-posta Adresiniz" required>
+                            <input type="email" placeholder="Your Email" required>
                         </div>
                         <div class="form-group">
-                            <input type="text" id="subject" placeholder="Konu" required>
+                            <textarea placeholder="Your Message" rows="5" required></textarea>
                         </div>
-                        <div class="form-group">
-                            <textarea id="message" rows="5" placeholder="Mesajınız" required></textarea>
-                        </div>
-                        <button type="submit" class="btn btn-primary">Mesaj Gönder</button>
+                        <button type="submit" class="btn btn-primary">Send Message</button>
                     </form>
-                    <p class="form-note">Not: Bu bir frontend gösterimidir. Gerçek iletişim için lütfen sağlanan e-posta adresini kullanın.</p>
                 </div>
             </div>
         </div>
@@ -257,38 +354,19 @@
     <!-- Footer -->
     <footer class="footer">
         <div class="container">
-            <div class="footer-content">
-                <div class="footer-logo">
-                    <a href="#" class="logo">Talha<span>BOYALIKLI</span></a>
-                    <p>Denizcilik Operasyonları ve Finans Profesyoneli</p>
-                </div>
-                <div class="footer-links">
-                    <h3>Hızlı Bağlantılar</h3>
-                    <ul>
-                        <li><a href="#home">Home</a></li>
-                        <li><a href="#about">About</a></li>
-                        <li><a href="#experience">Experience</a></li>
-                        <li><a href="#contact">Contact</a></li>
-                    </ul>
-                </div>
-                <div class="footer-social">
-                    <h3>Bağlantılar</h3>
-                    <div class="social-icons">
-                        <a href="#"><i class="fab fa-linkedin"></i></a>
-                        <a href="#"><i class="fab fa-twitter"></i></a>
-                        <a href="#"><i class="fab fa-github"></i></a>
-                        <a href="#"><i class="fas fa-envelope"></i></a>
-                    </div>
-                </div>
-            </div>
-            <div class="footer-bottom">
-                <p>&copy; 2025 Talha BOYALIKLI. All rights reserved.</p>
-                <p>Profesyonel sunum için <i class="fas fa-heart"></i> sevgiyle tasarlandı</p>
+            <p>&copy; 2026 Talha BOYALIKLI. All rights reserved.</p>
+            <p class="footer-note">Maritime Operations & Finance Professional</p>
+            <div class="footer-links">
+                <a href="#home">Home</a> |
+                <a href="#about">About</a> |
+                <a href="#experience">Experience</a> |
+                <a href="#skills">Skills</a> |
+                <a href="#education">Education</a> |
+                <a href="#contact">Contact</a>
             </div>
         </div>
     </footer>
 
-    <!-- JavaScript -->
     <script src="script.js"></script>
 </body>
 </html>
