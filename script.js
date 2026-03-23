@@ -31,21 +31,24 @@ document.getElementById('messageForm')?.addEventListener('submit', function(e) {
 
 // Scroll animations with Intersection Observer
 document.addEventListener('DOMContentLoaded', function() {
-    const observer = new IntersectionObserver(function(entries) {
-        entries.forEach(entry => {
-            if (entry.isIntersecting) {
-                entry.target.style.opacity = '1';
-                entry.target.style.transform = 'translateY(0)';
-            }
-        });
-    }, { threshold: 0.1 });
+    // Elements are visible by default, animate them when they enter viewport
+    const animTargets = document.querySelectorAll('.timeline-item, .skill-category, .highlight-card, .education-item');
 
-    document.querySelectorAll('.timeline-item, .skill-category, .highlight-card, .education-item').forEach(el => {
-        el.style.opacity = '0';
-        el.style.transform = 'translateY(20px)';
-        el.style.transition = 'opacity 0.5s ease, transform 0.5s ease';
-        observer.observe(el);
-    });
+    if ('IntersectionObserver' in window) {
+        // Add initial hidden state via CSS class
+        animTargets.forEach(el => el.classList.add('animate-on-scroll'));
+
+        const observer = new IntersectionObserver(function(entries) {
+            entries.forEach(entry => {
+                if (entry.isIntersecting) {
+                    entry.target.classList.add('visible');
+                    observer.unobserve(entry.target);
+                }
+            });
+        }, { threshold: 0.05, rootMargin: '0px 0px -30px 0px' });
+
+        animTargets.forEach(el => observer.observe(el));
+    }
 
     // Navbar shadow on scroll
     window.addEventListener('scroll', function() {
